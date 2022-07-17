@@ -1,0 +1,95 @@
+.nice_text {
+    color: red;
+}
+
+body {
+	background: #9ee5d8;
+	font-family: 'Arial';
+	margin: 2%;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+ul.mainmenu {
+	list-style: none;
+	background: #3F4137;
+	height: 60px;
+	margin: 0;
+	padding: 0;
+	color: #fdc073;
+	font-size: 20px;
+	overflow: hidden;
+}
+
+ul.mainmenu li {
+	float: left;
+	margin: 18px 40px 0 50px;
+}
+
+ul.mainmenu li.last {
+    float: right;
+    color: red;
+}
+
+ul.mainmenu li a {
+	color: #fdc073;
+	text-decoration: none;
+}
+
+ul.mainmenu li a:hover {
+	color: #FDA83D;
+}
+
+iv.content {
+	margin: 10px;
+}
+
+.clear {
+
+    height: 2px;
+}
+
+.form-contact label {
+         display: inline-block;
+         min-width: 80px;
+}
+
+.form-contact p {margin: 10px 0 10px 0;}
+.form-contact input[type=submit], textarea {
+         font-size: 16px;
+}
+
+.flash {padding: 10px;}
+.flash.success {
+         border: 1px solid #21DB56;
+         background: #AEFFC5;
+}
+.flash.error {
+         border: 1px solid #FF4343;
+         background: #FF9C9C;
+}
+
+ul.list-posts {
+         list-style: none;
+         margin: 0;
+         padding 0;
+         max-width: 600px;
+         padding-left: 20px;
+}
+
+ul.list-posts li {
+         margin: 20px 0 0 0;
+         border: 1px solid #6600ff;
+}
+ul.list-posts .title {
+         margin: 0;
+         padding: 5px;
+         background: #7b68ee;
+         color: black;
+}
+ul.list-posts .annonce {
+         margin: 0;
+         padding: 10px 5px 10px 5px;
+
+}
